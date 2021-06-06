@@ -12,7 +12,7 @@
   <h3 align="center">S-Crop</h3>
 
   <p align="center">
-    Snipping tool with OCR feature built with Electron.
+    Snipping tool with OCR feature - Built with Electron.
     <br />
     <a href="https://github.com/maheshmb13/S-Crop/releases/"><strong>Download the desktop application now »</strong></a>
     <br />
