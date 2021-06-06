@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' blob: data:; default-src 'self'; script-src 'self' 'unsafe-inline'">
+    <meta http-equiv="X-Content-Security-Policy" content="img-src 'self' blob:; default-src 'self'; script-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="index.css">
+    <title>S-Crop</title>
+  </head>
+  <body>
+    <h1 class="title">S-Crop</h1>
+    <div id="newDiv">
+      <svg width="0" height="0"> 
+        <filter id="filter">
+          <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="6" />
+          <feDisplacementMap in="SourceGraphic" scale="100" />
+        </filter>
+      </svg>
+      
+      
+      <div class="wrapper">
+        <button class="button _1" id="createMask">
+          <span>Snip</span><div class="back"></div>
+        </button>
+        <button class="button _2" id="ocrMask">
+          <span>OCR</span><div class="back"></div>
+        </button>
+      </div>
+    </div>
+
+    <div class="note-box">
+      <div class="note-text">
+      <b>SNIP</b> <br/>
+      Crop the desired area of the screen and copy it to the clipboard. <br/> ( Shorcut to invoke - ctrl+alt+i )
+      <br/><br/>
+      <b>OCR</b> <br/>
+      Extract text from the desired area of the screen and copy it to the clipboard. <br/> ( Shortcut to invoke - ctrl+alt+o ) 
+      <br/><br/>
+      Press Esc key - to close the crop window.
+      <br/> 
+      <div class="love">
+        Made with ❤️!!
+      </div>
+    </div>
+     
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./index.js">
+    </script>
+    <script>
+
+</script>
+  </body>
+</html>
