@@ -65,7 +65,7 @@ Here's why:
 ### Built With
 
 * [Electron](https://www.electronjs.org/)
-* [JQuery](https://jcrop.com/)
+* [JCrop](https://jcrop.com/)
 * [NodeJs](https://nodejs.org/en/)
 
 
