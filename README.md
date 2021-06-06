@@ -66,6 +66,7 @@ Here's why:
 
 * [Electron](https://www.electronjs.org/)
 * [JCrop](https://jcrop.com/)
+* [Tesseract.js](https://tesseract.projectnaptha.com/)
 * [NodeJs](https://nodejs.org/en/)
 
 
@@ -128,6 +129,7 @@ Project Link: [https://github.com/maheshmb13/S-Crop](https://github.com/maheshmb
 ## Acknowledgements
 * [JCrop](https://jcrop.com/)
 * [Electron](https://www.electronjs.org/)
+* [Tesseract.js](https://tesseract.projectnaptha.com/)
 * [Nodejs](https://nodejs.org/en/)
 * [Readme Template](https://github.com/othneildrew/Best-README-Template)
 
