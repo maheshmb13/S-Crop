@@ -71,7 +71,7 @@ function mask(imageURL, type){
                         if(err)console.log("err")
                         
                         var native_image = nativeImage.createFromBuffer(buffer);        
-                        await clipboard.writeImage(native_image);
+                        clipboard.writeImage(native_image)
     
                         var x = document.getElementById("snackbarText");
                         x.innerHTML = "Cropped image copied to clipboard..!!❤️"

@@ -85,7 +85,6 @@ function takeScreenshot(callback, imageFormat) {
             // Filter: main screen
             if ((source.name === "Entire Screen") || (source.name === "Screen 1") || (source.name === "Screen 2")) {
                 try{
-                    console.log("so what")
                     const stream = await navigator.mediaDevices.getUserMedia({
                         audio: false,
                         video: {
